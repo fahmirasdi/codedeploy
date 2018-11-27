@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/bin/systemctl start nginx.service
+sudo /bin/systemctl start nginx
+sudo /bin/systemctl start php-fpm
